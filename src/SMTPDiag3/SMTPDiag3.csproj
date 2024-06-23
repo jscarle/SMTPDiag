@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <OutputType>WinExe</OutputType>
+        <LangVersion>latest</LangVersion>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ApplicationHighDpiMode>SystemAware</ApplicationHighDpiMode>
+        <ForceDesignerDpiUnaware>true</ForceDesignerDpiUnaware>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <Version>3.1.175</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="JetBrains.Annotations" Version="2023.3.0" />
+    </ItemGroup>
+
+</Project>
